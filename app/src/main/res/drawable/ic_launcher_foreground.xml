@@ -1,0 +1,75 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Snake Body Segments -->
+    <path
+        android:fillColor="#059669"
+        android:pathData="M34,70 C28,68 25,60 28,52 C31,44 40,42 46,46 C52,50 56,60 52,68 Z" />
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M38,66 C32,64 30,56 34,50 C38,44 46,45 49,50 C52,55 46,65 38,66 Z" />
+
+    <!-- Snake Head -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M52,38 C46,38 42,44 42,52 C42,60 48,65 55,65 C63,65 67,59 67,52 C67,44 60,38 52,38 Z" />
+    <!-- Snake Head highlight -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M50,40 C46,41 44,45 44,50 C46,45 50,42 54,41 Z" />
+
+    <!-- Red Forked Tongue sticking out -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M66,54 L76,54 L80,50 L77,54 L80,58 L76,55 L66,55 Z" />
+
+    <!-- Snake Left Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,46 A4,4 0 1,0 56,46 A4,4 0 1,0 48,46 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M51,46 A2.2,2.2 0 1,0 55.4,46 A2.2,2.2 0 1,0 51,46 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52.5,45 A0.8,0.8 0 1,0 54.1,45 A0.8,0.8 0 1,0 52.5,45 Z" />
+
+    <!-- Snake Right Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M57,47 A4,4 0 1,0 65,47 A4,4 0 1,0 57,47 Z" />
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M60,47 A2.2,2.2 0 1,0 64.4,47 A2.2,2.2 0 1,0 60,47 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M61.5,46 A0.8,0.8 0 1,0 63.1,46 A0.8,0.8 0 1,0 61.5,46 Z" />
+
+    <!-- Burger (Food Item) -->
+    <!-- Burger Top Bun -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M66,73 C66,68 82,68 82,73 Z" />
+    <!-- Burger Sesame seeds -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M70,70.5 A0.6,0.6 0 1,0 71.2,70.5 A0.6,0.6 0 1,0 70,70.5 Z M74,69.5 A0.6,0.6 0 1,0 75.2,69.5 A0.6,0.6 0 1,0 74,69.5 Z M78,70.5 A0.6,0.6 0 1,0 79.2,70.5 A0.6,0.6 0 1,0 78,70.5 Z" />
+    <!-- Burger Lettuce -->
+    <path
+        android:fillColor="#22C55E"
+        android:pathData="M65,73 C67,75 69,73 71,75 C73,73 75,75 77,73 C79,75 81,73 83,73 L83,74.5 L65,74.5 Z" />
+    <!-- Burger Cheese -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M66,74.5 L82,74.5 L79,76.5 L69,76.5 Z" />
+    <!-- Burger Patty -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M66,75.5 C66,75.5 82,75.5 82,75.5 C82.5,75.5 83,76.5 82,77.5 L66,77.5 C65,76.5 65.5,75.5 66,75.5 Z" />
+    <!-- Burger Bottom Bun -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M66,77.5 L82,77.5 C82,80 66,80 66,77.5 Z" />
+</vector>
