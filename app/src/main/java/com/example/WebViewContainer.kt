@@ -64,7 +64,7 @@ fun WebViewContainer(
                         ViewGroup.LayoutParams.MATCH_PARENT
                     )
 
-                    setBackgroundColor(Color.TRANSPARENT)
+                    setBackgroundColor(android.graphics.Color.parseColor("#020617"))
                     isVerticalScrollBarEnabled = false
                     isHorizontalScrollBarEnabled = false
 
